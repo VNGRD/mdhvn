@@ -1,0 +1,28 @@
+const SETTINGS = 
+{
+	STATSNUMTAGS: 5,
+	STATSNUMTYPE: 0,
+	LOADANIMNUM: 50,
+	WIDEARTICLE: false,
+	AUTOWIDETRIGGER: 4,
+	USEMASONRY: true,
+	MASONRYPROGRESS: true,
+	ARTICLEIDBASE: 'item',
+	SHOWUPPER: true,
+	SHOWTITLE: false,
+	SHOWDATE: false,
+	SHOWAUTH: true,
+	SHOWTYPE: true,
+	SHOWLINK: true,
+	SHOWLOWER: true,
+	SHOWTAGS: false,
+	SHOWPROJ: true,
+	SHOWNOTE: true,
+	SHOWQOTE: true,
+	SHOWTERM: true,
+	SHOWDONE: false,
+	SHOWPROG: true,
+	SHOWIMAG: true,
+	SHOWFILE: true,
+	SHOWOVERLAY: true
+}

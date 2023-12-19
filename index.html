@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>✧</title>
+  <meta charset="utf-8">
+  <link rel="icon" href="star.png" sizes="16x16" type="image/gif">
+  <link rel="stylesheet" type="text/css" href="css/index.css">
+</head>
+
+<body>
+  
+  <!--links-->
+  <h1>all witches are selfish.</h1>
+  <div class="container">
+    <div class="subcontainer">01. the present</div>
+      <ul>
+        <li><a href="garden/navi.html" title="web links" span class="tooltip">Then turn selfishness into a weapon!</a>
+        <li><a href="garden/memex/index.html" title="memex" class="tooltip">Make all things yours!</a>
+        <li><a href="garden/greenhouse/greenhouse.html" title="greenhouse" class="tooltip">Make other lives and dreams and hopes yours! </a>
+      </ul>
+    <div class="subcontainer">02. the past</div>
+      <ul>
+        <li><a href="" title="--" class="tooltip">Protect them! Save them!</a>
+        <li><a href="" title="--" class="tooltip">Bring them into the sheepfold!</a>
+        <li><a href="" title="--" class="tooltip">Walk the gale for them! Keep away the wolf!</a>
+      </ul>
+    <div class="subcontainer">03. the future</div>
+      <ul>
+        <li><a href="" title="--" class="tooltip">My dreams! My family! My land! My world!</a>
+        <li><a href="" title="--" class="tooltip">How dare you try to take these things,</a>
+        <li><a href="" title="--" class="tooltip">because they are mine!</a>
+      </ul>
+  </div>
+
+    <div class="finish">"I have a duty!"</div>
+    <div class="source">Terry Pratchett, 'The Wee Free Men'</div>
+
+<!-- 
+  style my tooltips script
+  source: https://manos.malihu.gr/style-my-tooltips-jquery-plugin/ 
+-->
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
+
+<script src="jquery.style-my-tooltips.js"></script>
+
+<script>
+    (function($){
+        $(document).ready(function(){
+            $("[title]").style_my_tooltips({
+              tip_follows_cursor:true,
+              tip_delay_time:200,
+              tip_fade_speed:300,
+              attribute:"title"
+            });
+        });
+    })(jQuery);
+</script>
+
+</body>
+
+</html>
