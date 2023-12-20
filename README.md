@@ -1,4 +1,4 @@
-# rune.xyz
+# mdhvn.xyz
 
 ## what dis
 - a wip exercise in turning my quartz-published garden into something minimal and html-based... that eventually turned into an attempt at combining everything that i am currently using (startpage/garden/memex) into one (hopefully) functional website
