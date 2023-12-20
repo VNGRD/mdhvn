@@ -5,7 +5,7 @@
 
 ## to-do
 - [x] make website color scheme based on a certain... [someone](https://www.youtube.com/watch?v=CQeTZ4_77PA)
-- [x] find a way to make everything properly centered
+- [x] find a way to make everything properly centered (yk what, i like the off-center version this way)
 - [ ] style and fix links in memex + add link back to og repo
 - [x] garden footer links
 - [x] pixel font? pretty please (jk mincho font is fine)
