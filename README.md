@@ -9,6 +9,7 @@
 - [ ] style and fix links in memex + add link back to og repo
 - [x] garden footer links
 - [x] pixel font? pretty please (jk mincho font is fine)
+- [ ] add own art to memex!
 
 ## credits + resources:
 - memex by [kormyen](https://github.com/kormyen/memex)
