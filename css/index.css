@@ -1,47 +1,45 @@
-@import url('https://fonts.googleapis.com/css2?family=Hina+Mincho&display=swap');
+@import url('https://api.fonts.coollabs.io/css2?family=Noto+Serif+JP:wght@200&display=swap');
 
 /**color scheme: catppuccin mocha**/
-:root {
+/* :root {
   --dark: #1e1e2e; 
   --accent-a: #f38ba8;
   --accent-b: #94e2d5;
   --fontfamily: 'Hina Mincho', serif;
   --fontcolor-a: #89b4fa;
   --fontcolor-b: #cdd6f4;
+} */
+
+/**color scheme: HSR刃**/
+:root {
+  --dark: #0a1017; 
+  --accent-a: #b63b1d;
+  --accent-b: #72667e;
+  --fontfamily: 'Noto Serif JP', serif;
+  --fontcolor-a: #4d93a1;
+  --fontcolor-b: #f2f3ee;
+  --textsize: 12px;
 }
 
 body {
   background-color: var(--dark);
   font-family: var(--fontfamily);
+  min-width: 600px;
+  max-width: 800px;
+  width: 100%;
   margin: 35px;
-  font-size: 14px;
-  max-width: fit-content;
+  font-size: var(--textsize);
 }
 
 h1 {
-  padding: 10px 10px 10px 10px;
+  padding: 10px;
   margin: auto;
-  margin-top: 35px;
-  width: 500px;
+  width: 50%;
   background-color: var(--dark);
   font-size: 25px;
   font-style: italic;
   letter-spacing: 2px;
   color: var(--accent-a);
-}
-
-.container {
-  padding: 20px 0px 0px 0px;
-  margin: auto;
-  width: 500px;
-  height: auto;
-  border-top: none;
-}
-
-.subcontainer {
-  color: var(--accent-a);
-  letter-spacing: 2px;
-  text-decoration: none;
 }
 
 ul {
@@ -56,13 +54,15 @@ li {
 }
 
 a {
-  color: var(--fontcolor-b);
+  color: var(--dark);
   text-decoration: none;
+  background-color: var(--accent-a);
+  font-size: var(--textsize);
 }
 
 a:hover {
-  color: var(--accent-a);
-  text-decoration: underline;
+  color: var(--fontcolor-b);
+  text-decoration: line-through;
   cursor: help;
   transition: color 0.5s ease;
   font-style: italic;
@@ -72,24 +72,42 @@ b {
   color: var(--accent-a);
 }
 
+.container {
+  padding: 20px 0px 0px 0px;
+  margin: auto;
+  width: 50%;
+  height: auto;
+  border-top: none;
+}
+
+.subcontainer {
+  color: var(--accent-b);
+  letter-spacing: 2px;
+  text-decoration: none;
+}
+
 .finish {
   margin: auto;
-  width: 500px;
-  height: auto;
-  margin: auto;
-  width: 500px;
+  width: 50%;
   height: auto;
   color: var(--fontcolor-a);
   font-style: italic;
-  font-size: 15px;
+  font-size: var(--textsize);
 }
 
 .source {
   margin: auto;
-  width: 500px;
+  width: 50%;
   height: auto;
   color: var(--fontcolor-a);
-  font-size: 15px;
+  font-size: var(--textsize);
+}
+
+.footer {
+  padding: 10px;
+  margin: auto;
+  width: 50%;
+  font-size: 10px;
 }
 
 ::-webkit-scrollbar {
@@ -97,12 +115,12 @@ b {
 }
 
 ::selection {
-  background: var(--accent-a);
+  background: var(--fontcolor-a);
   color: var(--dark);
   }
   
   ::-moz-selection {
-  background: var(--accent-a);
+  background: var(--fontcolor-a);
   color: var(--dark);
   }
   
@@ -118,8 +136,6 @@ b {
   padding: 15px;
   background: var(--accent-a); /* fallback if rgba not supported */
   background: rgb(218, 38, 77), 71%, 50%);
-  -moz-box-shadow: 2px 2px 0 rgba(0,0,0,0.15);
-  -webkit-box-shadow:2px 2px 0 rgba(0,0,0,0.15));
   box-shadow:2px 2px 0 rgba(0,0,0,0.15);
   outline: 1px solid white;
   outline-offset: -4px;

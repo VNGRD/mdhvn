@@ -6,70 +6,79 @@
 
   <style>
     
-  @import url('https://fonts.googleapis.com/css2?family=Hina+Mincho&display=swap');
+  @import url('https://api.fonts.coollabs.io/css2?family=Noto+Serif+JP:wght@200&display=swap');
 
   :root {
-    --dark: #1e1e2e; 
-    --accent-a: #f38ba8;
-    --accent-b: #94e2d5;
-    --fontcolor-a: #89b4fa;
-    --fontcolor-b: #cdd6f4;
+  --dark: #0a1017; 
+  --accent-a: #b63b1d;
+  --accent-b: #72667e;
+  --fontfamily: 'Noto Serif JP', serif;
+  --fontcolor-a: #4d93a1;
+  --fontcolor-b: #f2f3ee;
+  --textsize: 12px;
   }
 
   body {
     background-color: var(--dark);
-    font-family: 'Hina Mincho', serif;
+    font-family: var(--fontfamily);
     color: var(--fontcolor-b);
-    font-size: 17px;
-    max-width: 500px;
+    font-size: var(--textsize);
+    min-width: 600px;
+    max-width: 800px;
+    width: 100%;
     margin: 35px;
   }
-  
+
   h1 {
-    padding: 10px 10px 10px 10px;
-    margin: auto;
-    margin-top: 35px;
-    width: 500px;
     font-size: 25px;
     font-style: italic;
     letter-spacing: 2px;
     color: var(--accent-a);
-  }
-
-  h2 {
-    padding: 10px 10px 0px 10px;
+    padding: 10px;
+    width: 50%;
     margin: auto;
-    width: 500px;
-    font-size: 20px;
-    font-style: italic;
-    letter-spacing: 2px;
-    color: var(--accent-b);
   }
-
-  blockquote {
-    padding: 5px 5px 5px 5px;
-    color: var(--accent-b);
-  }
-
-  ol {
-    padding: 10px 10px 0px 10px;
-    margin: 0px 0px 0px 30px;
-    list-style-type: decimal-leading-zero;
+  
+  ul {
+    list-style-type: none;
     padding: 15px;
-    font-size: 15px;
+    font-size: var(--textsize);
+    letter-spacing: 1px;
   }
 
   a {
-    color: var(--fontcolor-b);
-    text-decoration: none;
+    color: var(--dark);
+    text-decoration: underline;
+    background-color: var(--accent-a);
+    
   }
 
   a:hover {
-    color: var(--accent-a);
-    text-decoration: underline;
+    color: var(--fontcolor-b);
+    text-decoration: line-through;
     cursor: help;
     transition: color 0.5s ease;
     font-style: italic;
+  }
+
+  .title {
+    color: var(--fontcolor-a);
+    letter-spacing: 2px;
+    text-decoration: none;
+    text-align: center;
+    padding-bottom: 5px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: var(--accent-a);
+  }
+
+  .container {
+    border-style: solid;
+    border-color: var(--accent-a);
+    border-width: 1px;
+    padding: 10px;
+    width: 50%;
+    margin: auto;
   }
 
   ::-webkit-scrollbar {
@@ -77,12 +86,12 @@
   }
 
   ::selection {
-    background: var(--accent-a);
+    background: var(--fontcolor-a);
     color: var(--dark);
   }
 
   ::-moz-selection {
-    background: var(--accent-a);
+    background: var(--fontcolor-a);
     color: var(--dark);
   }
 
@@ -90,20 +99,44 @@
 
 </head>
 <body>
-    <h1>web links</h1>
+    <h1>navigation</h1>
+    <div class="container">
+      <div class="title">main</div>
+        <ul>
+          <li><a href="/index.html">landing</a> » go back?</li>
+          <li><a href="/garden/greenhouse/greenhouse.html">the garden</a> » main page to the garden</li>
+          <li><a href="/garden/memex/index.html">memex</a> » an online version of my commonplace book</li>
+          <li><a href="/garden/">file directory</a> » i should probably style this somehow</li>
+        </ul>
+    </div> 
     
-    <blockquote>
-        <i>
-            i'm going outside, coming back in 30. maybe
-        </i>
-    </blockquote>
+    <div class="container">
+      <div class="title">socials</div>
+        <ul>
+          <li><a href="https://tumblr.com/dashboard" target="_blank">tumblr</a> » the most social media of social media i'll ever do nowadays</li>
+          <li><a href="https://discord.com/channels/@me" target="_blank">discord</a> » gonna go on vc and mess around with my friends</li> 
+          <li><a href="https://www.schlaugh.com/~posts" target="_blank">schlaugh</a> » musings in a strictly text format</li>
+        </ul>
+    </div> 
 
-    <h2>main</h2>
-    <ol>
-        <li><a href="https://mail.proton.me/u/0/inbox" target="_blank">protonmail</a></li>
-        <li><a href="" target="_blank"></a></li>
-        <li><a href="" target="_blank"></a></li>
-        <li><a href="" target="_blank"></a></li>
-    </ol>
+    <div class="container">
+      <div class="title">media</div>
+        <ul>
+          <li><a href="https://vid.puffyan.us/feed/subscriptions/" target="_blank">invidious</a> » bc i've had enough of yt's bs at this point</li>
+          <li><a href="https://www1.anix.to/home" target="_blank">anix</a> » weeb moment</li> 
+          <li><a href="https://mangadex.org/" target="_blank">mangadex</a> » double weeb moment</li>
+        </ul>
+    </div> 
+
+    <div class="container">
+      <div class="title">tools</div>
+        <ul>
+          <li><a href="https://mail.proton.me/u/0/inbox" target="_blank">protonmail</a> » literally just my mail</li>
+          <li><a href="https://omnivore.app/home" target="_blank">omnivore</a> » basically a reading list. gets pruned and the most interesting ones go to <a href="/garden/greenhouse/outsidewilds.html">outside wilds</a></li> 
+          <li><a href="https://app.raindrop.io/my/0" target="_blank">raindrop</a> » bookmarks of interesting things to sort and look through</li>
+          <li><a href="https://github.com/" target="_blank">github</a> » where the clownery happens</li>
+          <li><a href="https://my.nextdns.io/" target="_blank">nextdns</a> » what i use when i want ads to permanently go away</li>
+        </ul>
+    </div>
 </body>
 </html>
