@@ -14,4 +14,3 @@
 - memex by [kormyen](https://github.com/kormyen/memex)
 - tooltips by [malihu](http://manos.malihu.gr/style-my-tooltips-jquery-plugin/)
 - notes exported from obsidian via [obsidian-enhancing-export](https://github.com/mokeyish/obsidian-enhancing-export)
-- color scheme from [catppuccin](https://github.com/catppuccin) as always <3
