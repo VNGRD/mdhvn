@@ -20,5 +20,5 @@
 
 ### 2023.12.20
 - site live on github!
-- added HSR刃 color scheme ♡
+- added HSR刃 color scheme ♡ (original: [catppuccin](https://github.com/catppuccin) mocha red)
 - switched to external stylesheets
