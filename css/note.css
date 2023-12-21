@@ -1,94 +1,110 @@
-:root {
-    --dark: #100c14;
-    --accent: #f01e52;
-    --opposite: #9bd2ec;
-    --fontfamily: 'Times New Roman', Times, serif;
-    --fontcolor-a: #9bd2ec;
-    --fontcolor-b: #c8c2f1;
-  }
-  
-  body {
-    background-color: var(--dark);
-    text-align: center;
-    font: var(--fontfamily);
-    cursor: crosshair;
-    min-width: 500px;
-  }
-  
-  h1 {
-    padding: 10px 10px 10px 10px;
-    margin: auto;
-    margin-top: 35px;
-    width: 500px;
-    background-color: var(--dark);
-    font-size: 15px;
-    font-style: italic;
-    letter-spacing: 2px;
-    color: var(--accent);
-  }
+@import url('https://api.fonts.coollabs.io/css2?family=Noto+Serif+JP:wght@200&display=swap');
 
-  ul {
-    list-style-type: none;
-    margin: auto;
-    padding: 20px;
-  }
+:root {
+  --dark: #0a1017; 
+  --accent-a: #b63b1d;
+  --accent-b: #72667e;
+  --fontfamily: 'Noto Serif JP', serif;
+  --fontcolor-a: #4d93a1;
+  --fontcolor-b: #f2f3ee;
+  --textsize: 12px
+}
+
+body {
+  background-color: var(--dark);
+  font-family: var(--fontfamily);
+  color: var(--fontcolor-b);
+  font-size: var(--textsize);
+  min-width: 600px;
+  max-width: 800px;
+  width: 100%;
+  margin: 35px;
+}
   
-  li {
-    padding: 8px;
-    font-size: 12px;
-    letter-spacing: 2px;
-  }
+h1 {
+  padding: 10px;
+  margin: auto;
+  width: 50%;
+  font-size: 25px;
+  font-style: italic;
+  letter-spacing: 2px;
+  color: var(--accent-a);
+}
+
+h2 {
+  padding: 10px;
+  margin: auto;
+  width: 50%;
+  font-size: 25px;
+  font-style: italic;
+  letter-spacing: 2px;
+  color: var(--accent-a);
+}
+
+blockquote {
+  padding: 10px;
+  color: var(--accent-b);
+  margin: auto;
+  width: 50%;
+}
+
+p {
+  padding: 10px;
+  margin: auto;
+  width: 50%;
+}
+
+ol {
+  padding: 10px 0px 0px 25px;
+  margin: auto;
+  width: 50%;
+}
+
+ul {
+  list-style-type: none;
+  margin: auto;
+  padding: 10px;
+  width: 50%;
+}
+
+li {
+  padding: 10px;
+  margin: auto;
+  width: 100%;
+}
+
+a {
+  color: var(--dark);
+  text-decoration: none;
+  background-color: var(--accent-a);
+  font-size: var(--textsize);
+}
+
+a:hover {
+  color: var(--fontcolor-a);
+  text-decoration: line-through;
+  background-color: var(--accent-b);
+  cursor: help;
+  transition: color 0.5s ease;
+  font-style: italic;
+}
+
+.footer {
+  padding: 10px;
+  margin: auto;
+  width: 50%;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+::selection {
+  background: var(--fontcolor-a);
+  color: var(--dark);
+}
   
-  a {
-    color: var(--fontcolor-b);
-    text-decoration: none;
-  }
-  
-  a:hover {
-    color: var(--fontcolor-b);
-    text-decoration: underline;
-    cursor: help;
-    transition: color 0.3s ease;
-    background-color: var(--accent);
-  }
-  
-  ::-webkit-scrollbar {
-    display: none;
-  }
-  
-  ::selection {
-    background: var(--accent);
-    color: var(--fontcolor-b);
-    }
-    
-    ::-moz-selection {
-    background: var(--accent);
-    color: var(--fontcolor-b);
-    }
-    
-  /* style-my-tootltips plugin, tooltip styling */
-  #s-m-t-tooltip{
-  
-    /* basic */
-    max-width:375px;
-    z-index:10;
-    margin:24px 14px 7px 12px;
-  
-    /* style and design */
-    padding: 15px;
-    background: var(--accent); /* fallback if rgba not supported */
-    background: rgb(218, 38, 77), 71%, 50%);
-    -moz-box-shadow: 2px 2px 0 rgba(0,0,0,0.15);
-    -webkit-box-shadow:2px 2px 0 rgba(0,0,0,0.15));
-    box-shadow:2px 2px 0 rgba(0,0,0,0.15);
-    outline: 1px solid white;
-    outline-offset: -4px;
-    
-    /* font */
-    font-family: var(--fontfamily);
-    font-style: italic;
-    font-size:11px;
-    letter-spacing: 1px;
-    line-height:16px;
-    color: var(--fontcolor-b);
-  }
+::-moz-selection {
+  background: var(--fontcolor-a);
+  color: var(--dark);
+}

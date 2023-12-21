@@ -1,0 +1,88 @@
+@import url('https://api.fonts.coollabs.io/css2?family=Noto+Serif+JP:wght@200&display=swap');
+
+:root {
+--dark: #0a1017; 
+--accent-a: #b63b1d;
+--accent-b: #72667e;
+--fontfamily: 'Noto Serif JP', serif;
+--fontcolor-a: #4d93a1;
+--fontcolor-b: #f2f3ee;
+--textsize: 12px;
+}
+
+body {
+  background-color: var(--dark);
+  font-family: var(--fontfamily);
+  color: var(--fontcolor-b);
+  font-size: var(--textsize);
+  min-width: 600px;
+  max-width: 800px;
+  width: 100%;
+  margin: 35px;
+}
+
+h1 {
+  font-size: 25px;
+  font-style: italic;
+  letter-spacing: 2px;
+  color: var(--accent-a);
+  padding: 10px;
+  width: 50%;
+  margin: auto;
+}
+
+ul {
+  list-style-type: none;
+  padding: 15px;
+  font-size: var(--textsize);
+  letter-spacing: 1px;
+}
+
+a {
+  color: var(--dark);
+  text-decoration: underline;
+  background-color: var(--accent-a);
+  
+}
+
+a:hover {
+  color: var(--fontcolor-b);
+  text-decoration: line-through;
+  cursor: help;
+  transition: color 0.5s ease;
+  font-style: italic;
+}
+
+.title {
+  color: var(--fontcolor-a);
+  letter-spacing: 2px;
+  text-decoration: none;
+  text-align: center;
+  padding-bottom: 5px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: var(--accent-a);
+}
+
+.container {
+  border-style: solid;
+  border-color: var(--accent-a);
+  border-width: 1px;
+  padding: 10px;
+  width: 50%;
+  margin: auto;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+::selection {
+  background: var(--fontcolor-a);
+  color: var(--dark);
+}
+
+::-moz-selection {
+  background: var(--fontcolor-a);
+  color: var(--dark);
+}

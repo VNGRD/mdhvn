@@ -12,6 +12,7 @@
 - [x] pixel font? pretty please (jk mincho font is fine)
 - [ ] add own art to memex!
 - [ ] make a custom 404 page
+- [x] switch to external stylesheets
 
 ## credits + resources:
 - memex by [kormyen](https://github.com/kormyen/memex)
