@@ -16,6 +16,7 @@
 - memex by [kormyen](https://github.com/kormyen/memex)
 - tooltips by [malihu](http://manos.malihu.gr/style-my-tooltips-jquery-plugin/)
 - notes exported from obsidian via [obsidian-enhancing-export](https://github.com/mokeyish/obsidian-enhancing-export)
+- [coollabs](https://fonts.coollabs.io/) for google fonts cdn replacement
 
 ## changelog
 
