@@ -3,7 +3,7 @@
 ## what dis
 - a wip exercise in turning my quartz-published garden into something minimal and heavily text-based... that eventually turned into an attempt at combining everything that i am currently using (startpage/garden/memex) into one (hopefully) functional website
 - original release was in [rzy.neocities](https://rzy.neocities.org) but ultimately decided to host it on github instead for easier workflow
-- **not** meant to be polished - inspired by sites on [neocities](https://neocities.org/browse) and especially [nightfall.city](https://nightfall.city). also meant to be following heavily on the digital garden ethos
+- **not** meant to be polished - inspired by sites on [neocities](https://neocities.org/browse) and especially [nightfall.city](https://nightfall.city). also meant to be following heavily on the [digital garden ethos](https://maggieappleton.com/garden-history)
 
 ## to-do
 - [ ] style and fix links in memex + add link back to og repo
