@@ -5,7 +5,64 @@
   <title>✧</title>
   <meta charset="utf-8">
   <link rel="icon" href="resources/maple.gif" sizes="16x16" type="image/gif">
-  <link rel="stylesheet" type="text/css" href="resources/css/index.css">
+  <style>
+    @font-face {
+        font-family: "SimSun";
+        src: url(resources/fonts/simsun.ttf);
+    }
+
+    :root {
+        --dark: #0a1017; 
+        --accent-a: #b63b1d;
+        --accent-b: #72667e;
+        --fontcolor-a: #4d93a1;
+        --fontcolor-b: #f2f3ee;
+        --textsize: 15px;
+    }
+
+    body {
+        background-color: var(--dark);
+        font-family: "SimSun";
+        min-width: 600px;
+        max-width: 1000px;
+        width: 100%;
+        margin: 35px;
+        font-size: var(--textsize);
+        min-height: 100px;
+        max-height: 500px;
+    }
+
+    b {
+        color: var(--accent-a);
+    }
+
+    a {
+        color: var(--dark);
+        text-decoration: none;
+        background-color: var(--accent-a);
+        font-size: var(--textsize);
+    }
+
+    a:hover {
+        color: var(--fontcolor-b);
+        text-decoration: line-through;
+        cursor: help;
+        transition: color 0.5s ease;
+        font-style: italic;
+    }
+
+    ::selection {
+        background: var(--fontcolor-a);
+        color: var(--dark);
+    }
+  
+    ::-moz-selection {
+        background: var(--fontcolor-a);
+        color: var(--dark);
+    }
+  
+
+  </style>
 </head>
 
 <body>
