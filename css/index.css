@@ -1,4 +1,7 @@
-@import url('https://api.fonts.coollabs.io/css2?family=Noto+Serif+JP:wght@200&display=swap');
+@font-face {
+  font-family: "SimSun";
+  src: url(/fonts/simsun.ttf);
+}
 
 /**color scheme: catppuccin mocha**/
 /* :root {
@@ -15,20 +18,21 @@
   --dark: #0a1017; 
   --accent-a: #b63b1d;
   --accent-b: #72667e;
-  --fontfamily: 'Noto Serif JP', serif;
   --fontcolor-a: #4d93a1;
   --fontcolor-b: #f2f3ee;
-  --textsize: 12px;
+  --textsize: 15px;
 }
 
 body {
   background-color: var(--dark);
-  font-family: var(--fontfamily);
+  font-family: "SimSun";
   min-width: 600px;
-  max-width: 800px;
+  max-width: 1000px;
   width: 100%;
   margin: 35px;
   font-size: var(--textsize);
+  min-height: 100px;
+  max-height: 500px;
 }
 
 h1 {
@@ -142,7 +146,7 @@ b {
   outline-offset: -4px;
   
   /* font */
-  font-family: var(--fontfamily);
+  font-family: "SimSun";
   font-style: italic;
   font-size:11px;
   letter-spacing: 1px;
