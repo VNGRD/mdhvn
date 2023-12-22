@@ -1,0 +1,123 @@
+@font-face {
+  font-family: "SimSun";
+  src: url(/resources/fonts/simsun.ttf);
+}
+
+:root {
+  --dark: #0a1017; 
+  --accent-a: #b63b1d;
+  --accent-b: #72667e;
+  --fontcolor-a: #4d93a1;
+  --fontcolor-b: #f2f3ee;
+  --textsize: 15px
+}
+
+body {
+  background-color: var(--dark);
+  font-family: "SimSun";
+  color: var(--fontcolor-b);
+  font-size: var(--textsize);
+  min-width: 600px;
+  max-width: 1000px;
+  width: 100%;
+  margin: 35px;
+}
+  
+h1 {
+  padding: 10px;
+  margin: auto;
+  width: 50%;
+  font-size: 25px;
+  font-style: italic;
+  letter-spacing: 2px;
+  color: var(--accent-a);
+}
+
+h2 {
+  padding: 10px;
+  margin: auto;
+  width: 50%;
+  font-size: 25px;
+  font-style: italic;
+  letter-spacing: 2px;
+  color: var(--accent-a);
+}
+
+blockquote {
+  padding: 10px;
+  color: var(--accent-b);
+  margin: auto;
+  width: 50%;
+}
+
+p {
+  padding: 10px;
+  margin: auto;
+  width: 50%;
+}
+
+ol {
+  padding: 10px 0px 0px 25px;
+  margin: auto;
+  width: 50%;
+}
+
+ul {
+  list-style-type: none;
+  margin: auto;
+  padding: 10px;
+  width: 50%;
+}
+
+li {
+  padding: 10px;
+  margin: auto;
+  width: 100%;
+}
+
+a {
+  color: var(--dark);
+  text-decoration: none;
+  background-color: var(--accent-a);
+  font-size: var(--textsize);
+}
+
+a:hover {
+  color: var(--fontcolor-b);
+  text-decoration: line-through;
+  cursor: help;
+  transition: color 0.5s ease;
+  font-style: italic;
+}
+
+.update {
+  padding: 5px;
+  margin: auto;
+  font-size: 10px;
+  color: var(--fontcolor-a);
+}
+
+.update:hover {
+  font-style: italic;
+}
+
+.footer {
+  padding: 10px;
+  margin: auto;
+  width: 50%;
+  font-size: 9px;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+::selection {
+  background: var(--fontcolor-a);
+  color: var(--dark);
+}
+  
+::-moz-selection {
+  background: var(--fontcolor-a);
+  color: var(--dark);
+}

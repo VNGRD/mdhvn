@@ -1,0 +1,124 @@
+@font-face {
+  font-family: "SimSun";
+  src: url(/resources/fonts/simsun.ttf);
+}
+
+:root {
+--dark: #0a1017; 
+--accent-a: #b63b1d;
+--accent-b: #72667e;
+--fontcolor-a: #4d93a1;
+--fontcolor-b: #f2f3ee;
+--textsize: 15px;
+}
+
+body {
+  background-color: var(--dark);
+  font-family: "SimSun";
+  color: var(--fontcolor-b);
+  font-size: var(--textsize);
+  min-width: 600px;
+  max-width: 1000px;
+  width: 100%;
+  margin: 35px;
+}
+
+h1 {
+  font-size: 25px;
+  font-style: italic;
+  letter-spacing: 2px;
+  color: var(--accent-a);
+  padding: 10px;
+  width: 50%;
+  margin: auto;
+}
+
+ul {
+  list-style-type: none;
+  padding: 15px;
+  font-size: var(--textsize);
+  letter-spacing: 1px;
+  line-height: 1.2rem;
+}
+
+a {
+  color: var(--dark);
+  text-decoration: none;
+  background-color: var(--accent-a);
+  font-size: var(--textsize);
+}
+
+a:hover {
+  color: var(--fontcolor-b);
+  text-decoration: line-through;
+  cursor: help;
+  transition: color 0.5s ease;
+  font-style: italic;
+}
+
+.scenario {
+  color: var(--accent-b);
+  letter-spacing: 2px;
+  text-decoration: none;
+  padding: 5px;
+}
+
+.container {
+  border-color: var(--accent-a);
+  border-width: 1px;
+  padding: 10px;
+  width: 50%;
+  margin: auto;
+}
+
+.choice {
+  color: var(--fontcolor-a);
+}
+
+.description {
+  padding: 6px;
+}
+
+.explain {
+  color: var(--accent-b);
+  font-size: 12px;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+::selection {
+  background: var(--fontcolor-a);
+  color: var(--dark);
+}
+
+::-moz-selection {
+  background: var(--fontcolor-a);
+  color: var(--dark);
+}
+
+/* style-my-tootltips plugin, tooltip styling */
+#s-m-t-tooltip{
+
+  /* basic */
+  max-width:375px;
+  z-index:10;
+  margin:24px 14px 7px 12px;
+
+  /* style and design */
+  padding: 15px;
+  background: var(--accent-a); /* fallback if rgba not supported */
+  background: rgb(218, 38, 77), 71%, 50%);
+  box-shadow:2px 2px 0 rgba(0,0,0,0.15);
+  outline: 1px solid white;
+  outline-offset: -4px;
+  
+  /* font */
+  font-family: "SimSun";
+  font-style: italic;
+  font-size:11px;
+  letter-spacing: 1px;
+  line-height:16px;
+  color: var(--fontcolor-b);
+}
