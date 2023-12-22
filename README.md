@@ -8,7 +8,7 @@
 ## to-do
 ### pages:
 - [ ] art
-- [ ] custom 404
+- [x] custom 404
 - [ ] about/now
 - [ ] remake memex into its own page
 
