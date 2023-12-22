@@ -6,11 +6,14 @@
 - **not** meant to be polished - inspired by sites on [neocities](https://neocities.org/browse) and especially [nightfall.city](https://nightfall.city). also meant to be following heavily on the [digital garden ethos](https://maggieappleton.com/garden-history)
 
 ## to-do
-- [ ] style and fix links in memex + add link back to og repo
-- [ ] make a custom 404 page
+### pages:
+- [ ] art
+- [ ] custom 404
+- [ ] about/now
+- [ ] remake memex into its own page
+
+### sitewide:
 - [ ] theme switcher
-- [ ] about/now page
-- [ ] art page
 
 ## credits + resources:
 - memex by [kormyen](https://github.com/kormyen/memex)
