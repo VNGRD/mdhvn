@@ -11,7 +11,8 @@
 <body>
   
   <!--links-->
-  <h1>all witches are selfish.</h1>
+
+<h1>all witches are selfish.</h1>
 <div class="container">
     <div class="subcontainer">01. the present</div>
       <ul>
@@ -43,22 +44,19 @@
 -->
 
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
-
-<script src="jquery.style-my-tooltips.js"></script>
-
+<script src="scripts/jquery.style-my-tooltips.js"></script>
 <script>
-    (function($){
-        $(document).ready(function(){
-            $("[title]").style_my_tooltips({
-              tip_follows_cursor:true,
-              tip_delay_time:200,
-              tip_fade_speed:300,
-              attribute:"title"
-            });
-        });
-    })(jQuery);
+  (function($){
+      $(document).ready(function(){
+          $("[title]").style_my_tooltips({
+            tip_follows_cursor:true,
+            tip_delay_time:200,
+            tip_fade_speed:300,
+            attribute:"title"
+          });
+      });
+  })(jQuery);
 </script>
 
 </body>
-
 </html>

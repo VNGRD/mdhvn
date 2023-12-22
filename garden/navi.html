@@ -6,46 +6,82 @@
   <link rel="stylesheet" type="text/css" href="/css/navi.css">
 
 </head>
+
 <body>
     <h1>navigation</h1>
     <div class="container">
-      <div class="title">home</div>
+      <div class="scenario">you have now entered a void space, mysteriously mapped out with text. what will you do?</div>
         <ul>
-          <li><a href="/index.html">landing</a> » take me home, country roads</li>
-          <li><a href="/garden/greenhouse/greenhouse.html">the garden</a> » main page to the garden</li>
-          <li><a href="https://sprout.pages.dev/">quartz garden</a> » quartz version of my garden, most likely more up-to-date</li>
-          <li><a href="/garden/memex/index.html">memex</a> » an online version of my commonplace book</li>
+          <li>
+            <div class="choice">
+              » return to the <a href="/index.html" title="home">the roots</a> of what you found here.
+            </div>
+            <div class="description">
+              is there nothing to see? will you go a different road? or do you already know where you are? either way, you will your feet to take you someplace away from this space.
+            </div>
+            <div class="explain">
+              <p><b>[A DISEMBODIED VOICE]</b> <i>this goes back to the site's homepage.</i></p>
+            </div>
+          </li>
+
+          <li>
+            <div class="choice">
+              » leave the void and enter the forest to find a <a href="/garden/greenhouse/greenhouse.html" title="digital garden">clearing to a wild garden.</a>
+            </div>
+            <div class="description">
+              reaching your hand out from the void until you feel the soft brush of a leaf, you move yourself forward. in a slow blink of an eye, a garden gently sequestered in a forest clearing appears before you. it is an almost maddening array of colors in a sea of brown bark and green pine. you silently wonder to yourself who could have tended to these flowers.
+            </div>
+            <div class="explain">
+              <p><b>[A DISEMBODIED VOICE]</b> <i>this is the hypertext version of my digital garden. it is meant to be less polished compared to my garden based in quartz, found below.</i></p>
+            </div>
+          </li>
+
+          <li>
+            <div class="choice">
+              » look at the <a href="https://sprout.pages.dev/" title="obsidian-based garden">seedling-filled box</a> shying in the corner of your vision.
+            </div>
+            <div class="description">
+              you find a box of small sprouts and scattered seeds. compared to the wild of the garden, this box gives you a sense of safety. it is tame, but it will have to do for now.
+            </div>
+            <div class="explain">
+              <p><b>[A DISEMBODIED VOICE]</b> <i>the original version of my digital garden, published in quartz. this is more likely up-to-date compared to its hypertext version.</i></p>
+            </div>
+          </li>
+          
+          <li>
+            <div class="choice">
+              » violently slash a hand across the air of the void, revealing the <a href="https://github.com/VNGRD/mdhvn" title="source code">guts and viscera of this space.</a>
+            </div>
+            <div class="description">
+              you know exactly what this space is, and you know what it entails. your curiosity gets the better of you, and the void knows it.
+            </div>
+            <div class="explain">
+              <p><b>[A DISEMBODIED VOICE]</b> <i>that's the source code baybee</i></p>
+            </div>
+          </li>
 
         </ul>
     </div> 
-    
-    <div class="container">
-      <div class="title">socials</div>
-        <ul>
-          <li><a href="https://tumblr.com/dashboard" target="_blank">tumblr</a> » the most social media of social media i'll ever do nowadays</li>
-          <li><a href="https://discord.com/channels/@me" target="_blank">discord</a> » gonna go on vc and mess around with my friends</li> 
-          <li><a href="https://www.schlaugh.com/~posts" target="_blank">schlaugh</a> » musings in a strictly text format</li>
-        </ul>
-    </div> 
 
-    <div class="container">
-      <div class="title">media</div>
-        <ul>
-          <li><a href="https://vid.puffyan.us/feed/subscriptions/" target="_blank">invidious</a> » bc i've had enough of yt's bs at this point</li>
-          <li><a href="https://www1.anix.to/home" target="_blank">anix</a> » weeb moment</li> 
-          <li><a href="https://mangadex.org/" target="_blank">mangadex</a> » double weeb moment</li>
-        </ul>
-    </div> 
+<!-- 
+  style my tooltips script
+  source: https://manos.malihu.gr/style-my-tooltips-jquery-plugin/ 
+-->
 
-    <div class="container">
-      <div class="title">tools</div>
-        <ul>
-          <li><a href="https://mail.proton.me/u/0/inbox" target="_blank">protonmail</a> » literally just my mail</li>
-          <li><a href="https://omnivore.app/home" target="_blank">omnivore</a> » basically a reading list. gets pruned and the most interesting ones go to <a href="/garden/greenhouse/outsidewilds.html">outside wilds</a></li> 
-          <li><a href="https://app.raindrop.io/my/0" target="_blank">raindrop</a> » bookmarks of interesting things to sort and look through</li>
-          <li><a href="https://github.com/" target="_blank">github</a> » where the clownery happens</li>
-          <li><a href="https://my.nextdns.io/" target="_blank">nextdns</a> » what i use when i want ads to permanently go away</li>
-        </ul>
-    </div>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
+<script src="/scripts/jquery.style-my-tooltips.js"></script>
+<script>
+  (function($){
+      $(document).ready(function(){
+          $("[title]").style_my_tooltips({
+            tip_follows_cursor:true,
+            tip_delay_time:200,
+            tip_fade_speed:300,
+            attribute:"title"
+          });
+      });
+  })(jQuery);
+</script>
+
 </body>
 </html>
