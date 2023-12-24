@@ -72,6 +72,17 @@ a:hover {
     font-style: italic;
 }
 
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: var(--accent-a);
+    text-align: center;
+    margin: auto;
+    color: var(--dark);
+}
+
 ::-webkit-scrollbar {
     display: none;
   }
