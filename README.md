@@ -11,6 +11,7 @@
 - [x] custom 404
 - [ ] about/now
 - [ ] remake memex into its own page
+- [ ] keepsakes (picrews, quiz results, etc).
 
 ### sitewide:
 - [ ] theme switcher
