@@ -1,30 +1,22 @@
 # mdhvn.xyz
 
 ## what dis
-- a wip exercise in turning my quartz-published garden into something minimal and heavily text-based... that eventually turned into an attempt at combining everything that i am currently using (startpage/garden/memex) into one (hopefully) functional website
+- originally used as an exercise to try and turn my quartz-based garden into a purely hypertext website, now converted into just my own personal site instead!
 - original release was in [rzy.neocities](https://rzy.neocities.org) but ultimately decided to host it on github instead for easier workflow
-- **not** meant to be polished - inspired by sites on [neocities](https://neocities.org/browse) and especially [nightfall.city](https://nightfall.city). also meant to be following heavily on the [digital garden ethos](https://maggieappleton.com/garden-history)
+- **not** meant to be polished - inspired by sites on [neocities](https://neocities.org/browse) and especially [nightfall.city](https://nightfall.city).
 
 ## to-do
 ### pages:
 - [ ] art
 - [x] custom 404
 - [ ] about/now
-- [ ] remake memex into its own page
 - [ ] keepsakes (picrews, quiz results, etc).
 
 ### sitewide:
-- [ ] theme switcher
+- [ ] theme switcher??
 
 ## credits + resources:
-- memex by [kormyen](https://github.com/kormyen/memex)
 - tooltips by [malihu](http://manos.malihu.gr/style-my-tooltips-jquery-plugin/)
-- notes exported from obsidian via [obsidian-enhancing-export](https://github.com/mokeyish/obsidian-enhancing-export)
 - favicon from [sadthemes](https://sadthemes.tumblr.com/smolpxl)
 
-## changelog
 
-### 2023.12.20
-- site live on github!
-- added HSR刃 color scheme ♡ (original: [catppuccin](https://github.com/catppuccin) mocha red)
-- switched to external stylesheets
