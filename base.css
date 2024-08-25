@@ -1,3 +1,9 @@
+:root {
+  --dark: #000;
+  --light: #fff;
+  --accent: #d43046;
+}
+
 body {
     background-color: #000;
     font-family: monospace;
@@ -23,3 +29,13 @@ body {
    margin: 10px 0;
    list-style-type: none;
   }
+
+::selection {
+    background: #d43046;
+    color: #fff;
+}
+    
+::-moz-selection {
+    background: #d43046;
+    color: #fff;
+}
