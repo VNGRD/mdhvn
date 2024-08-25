@@ -39,3 +39,13 @@ ul,ol,li {
   background: var(--accent);
   color: var(--light);
 }
+
+.footer {
+  position: sticky;
+  left: 0;
+  bottom: 0;
+  width: 96%;
+  background-color: #000;
+  text-align: center;
+  padding: 10px;
+}
