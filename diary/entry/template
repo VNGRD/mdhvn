@@ -2,21 +2,28 @@
 <html>
 
 <head>
-  <title>✧ anri's diary!</title>
+  <title>✧ 20240826</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=0.80">
   <link rel="icon" href="/resources/maple.gif" sizes="16x16" type="image/gif">
   <style>
     @import url(/base.css);
+    b {
+      color: #d43046;
+    }
   </style>
 </head>
 
 <body>
 
-  <h3>/<a href="/index.html">void</a>/diary.html</h3>
-  <p><i>this is the part where i yap!!</i></p>
+  <h3>/<a href="/index.html">void</a>/<a href="/diary/diary.html">diary</a>/entry/20240826.html</h3>
+  <p><b>date >></b> 20240826</p>
+  <p><b>listening to >></b> song</p>
   <br>
 
-  <li><a href="/diary/entry/20240826.html">20240826 >></a> oh no i'm afflicted with Too Shy Online disease</li>
+  <p>[ENTRY HERE]</p>
+  <br>
+  <h3>related</h3>
+
 </body>
 </html>

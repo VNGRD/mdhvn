@@ -15,7 +15,8 @@ body {
     width: 100%;
     margin-left: auto;
     margin-right: auto;
-  }
+    line-height: 16px;
+}
 
 a {
    color: var(--accent);
