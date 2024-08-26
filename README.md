@@ -9,7 +9,7 @@
 ### pages:
 - [ ] art
 - [x] custom 404
-- [ ] about/now
+- [x] about/now
 - [ ] keepsakes (picrews, quiz results, etc).
 
 ### sitewide:
