@@ -7,9 +7,6 @@
 
 ## to-do
 ### pages:
-- [ ] art
-- [x] custom 404
-- [x] about/now
 - [ ] keepsakes (picrews, quiz results, etc).
 
 ### sitewide:
