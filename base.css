@@ -2,6 +2,7 @@
   --dark: #000;
   --light: #fff;
   --accent: #d43046;
+  --accent-dark: #794d54;
 }
 
 body {
@@ -39,6 +40,21 @@ ul,ol,li {
 ::-moz-selection {
   background: var(--accent);
   color: var(--light);
+}
+
+.changelog {
+  height: 200px;
+  width: 100%;
+  overflow-y: scroll;
+  -ms-overflow-style: -ms-autohiding-scrollbar;
+  scrollbar-width: thin;
+}
+
+.changelog h3 {
+  color: var(--accent)
+}
+.changelog b {
+  color: var(--accent-dark);
 }
 
 .footer {
