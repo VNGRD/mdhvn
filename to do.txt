@@ -16,3 +16,26 @@ general game screenshot gallery maybe?
     skyrim
     sky??
 MOD LISTS FOR MY GAMES
+
+things that are fucking up for some fucking reason:
+    - font size for <li> is incredibly big on mobile (dawg just switch that to <p>) (BUT FOR SOME REASON MY <li> IN MY MODLIST PAGE IS FINE???)
+    - about pfp causing "online" to be in another line and going under the photo
+
+issues page by page on tori's firefox:
+    - index (viewport bad)
+    - about (font bad)
+    - now (font bad)
+    - diary index (viewport and font not ok)
+    - diary page 1 (horizontal scroll but no zoom)
+    - diary page 2 (viewport and font ok)
+    - garden (viewport bad)
+    - weblinks (font bad)
+    - sketchbook index (font bad)
+    - all sketchbook pages (all ok)
+    - photo album (no fonts bc wip, viewport bad)
+    - modlist (all ok SOMEHOW)
+    - oc index (viewport bad)
+    - rune (fonts bad)
+    - site map (fonts bad)
+    - all liam neeson pages (viewport bad)
+ITS ALL A <li> ISSUE AAAAAAAAAAAAAAAAAAAAAAAAAA
