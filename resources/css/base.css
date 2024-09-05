@@ -55,7 +55,7 @@ h3 {
 }
 
 .changelog {
-  height: 200px;
+  height: 100px;
   width: 100%;
   overflow-y: scroll;
   -ms-overflow-style: -ms-autohiding-scrollbar;
