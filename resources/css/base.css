@@ -5,6 +5,10 @@
   --accent-dark: #794d54;
 }
 
+html {
+  scrollbar-width: thin;
+}
+
 body {
     background-color: var(--dark);
     font-family: monospace;
