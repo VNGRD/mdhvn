@@ -5,13 +5,6 @@
 - original release was in [rzy.neocities](https://rzy.neocities.org) but ultimately decided to host it on github instead for easier workflow
 - **not** meant to be polished - inspired by sites on [neocities](https://neocities.org/browse) and especially [nightfall.city](https://nightfall.city).
 
-## to-do
-### pages:
-- [ ] keepsakes (picrews, quiz results, etc).
-
-### sitewide:
-- [ ] theme switcher??
-
 ## credits + resources:
 - memex by [kormyen](https://github.com/kormyen/memex)
 - tooltips by [malihu](http://manos.malihu.gr/style-my-tooltips-jquery-plugin/)
