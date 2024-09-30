@@ -18,3 +18,9 @@ img {
     margin-top: 8px;
     vertical-align: middle;
 }
+
+.caption {
+    text-align: center;
+    font-style: italic;
+    padding: 5px;
+  }
